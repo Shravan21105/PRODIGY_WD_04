@@ -8,11 +8,11 @@
             "Tailwind",
             "HTML"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "https://vrprodigywd01.vercel.app/",
+        "source": "https://github.com/Shravan21105/PRODIGY_WD_01"
     },
     {
-        "title": "Project Stopwatch",
+        "title": "Tic-Tac-Toe Game",
         "imageSrc": "projects/project2.png",
         "description": "This is a project made to learn the application of Javascript and their functions.",
         "skills": [
@@ -20,8 +20,8 @@
             "CSS",
             "Javascript"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "https://game-prodigy-wd-03.vercel.app/",
+        "source": "https://github.com/Shravan21105/PRODIGY_WD_03"
     },
     {
         "title": "Weather App",
@@ -33,7 +33,7 @@
             "JS",
             "WeatherApi"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "https://weather-prodigy-wd-05.vercel.app/",
+        "source": "https://github.com/Shravan21105/PRODIGY_WD_05    "
     }
 ]
