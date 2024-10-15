@@ -1,0 +1,104 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h2 {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link a:hover {
+  color:aquamarine; /* Change color on hover */
+  transform: translateX(10px); /* Slide right on hover */
+}
+
+.progress {
+  position: fixed;
+  z-index: 1000;
+  bottom: 40px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  border: solid 2px white;
+  border-radius: 50%;
+  color: #1d002c;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+              rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+              rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.progressValue {
+  display: grid;
+  height: calc(100% - 12px);
+  width: calc(100% - 12px);
+  background: linear-gradient(135deg, #00ffd9, #001aff); /* Green to Blue */
+  border-radius: 50%;
+  color: white;
+  place-items: center;
+  font-size: 25px;
+}
+
+
+
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}

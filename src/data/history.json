@@ -1,0 +1,17 @@
+[
+    {
+        "role": "Frontend Web Development Intern",
+        "organisation": "Prodigy Infotech",
+        "startDate": "Oct, 2024",
+        "endDate": "Present",
+        "experiences": [
+            "Made a responsive VR website",
+            "Made a stopwatch",
+            "Made a Tic Tac Toe Game",
+            "Made a weather app",
+            "Made a personal portfolio"
+
+        ],
+        "imageSrc": "history/Prodigy.png"
+    }
+]

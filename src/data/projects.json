@@ -1,0 +1,39 @@
+[
+    {
+        "title": "VirtualR Website",
+        "imageSrc": "projects/project1.png",
+        "description": "This is a project made to learn how to create a responsive langing page with responsive navbar.",
+        "skills": [
+            "React",
+            "Tailwind",
+            "HTML"
+        ],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Project Stopwatch",
+        "imageSrc": "projects/project2.png",
+        "description": "This is a project made to learn the application of Javascript and their functions.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Weather App",
+        "imageSrc": "projects/project3.png",
+        "description": "This is a project made to learn the use of Apis to detect and forecast weather.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS",
+            "WeatherApi"
+        ],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    }
+]
